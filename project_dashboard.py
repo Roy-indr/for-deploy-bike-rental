@@ -79,7 +79,7 @@ def create_weather_users_twelve_day_df(df):
     return weather_users_twelve_day_df
 
 #Membaca file new_day_csv
-new_day_df = pd.read_csv("D:/Programming/PythonVSC/venv/Dashboard/new_day.csv")
+new_day_df = pd.read_csv("new_day.csv")
 
 #Mengubah kolom dteday menjadi berformat datetime
 new_day_df["dteday"] = pd.to_datetime(new_day_df["dteday"])
