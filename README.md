@@ -9,5 +9,9 @@ pip install pandas matplotlib seaborn jupyter streamlit
 
 ## Run steamlit app
 ```
-streamlit run project_dashboard.py
+streamlit run main_dashboard.py
 ```
+## Deploy streamlit link
+'''
+https://projectdashboardpy-7wwr8tduddccqumx49njk7.streamlit.app/
+'''
